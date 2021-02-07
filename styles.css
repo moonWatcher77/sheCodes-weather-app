@@ -1,0 +1,119 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: left;
+  margin: 0 auto;
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+}
+
+h1 {
+  top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px !important;
+  padding: 40px;
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px !important;
+  top: 37px;
+  padding: 40px;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px !important;
+  top: 240px;
+  padding: 40px;
+  line-height: 1.5 !important;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px !important;
+  top: 320px;
+  padding: 40px;
+  font-weight: bold;
+}
+
+.containerAll {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 560px;
+  height: 570px;
+  display: block;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  opacity: 0.8;
+  text-align: center;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#button-current {
+  position:absolute;
+  left: 188px;
+  
+}
+
+.btn-outline-light {
+  float: left;
+}
+
+.fa-cloud-sun {
+  color: white;
+  position: absolute;
+  top: 210px;
+  left: 370px;
+  font-size: 110px;
+}
+
+.degreesMain {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  padding: 10px 15px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.3);
+  left: 370px;
+  top: 90px !important;
+}
+
+.containerWeek {
+  display: inline;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px !important;
+  float:left;
+  top: 400px;
+}
+
+.fa-cloud-showers-heavy,
+.fa-cloud-sun-rain,
+.fa-cloud,
+.fa-sun {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.degrees {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+footer {
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  top: 495px;
+  padding: 40px;
+  position: absolute;
+}
